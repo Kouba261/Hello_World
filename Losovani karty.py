@@ -28,13 +28,14 @@ def dalsi_karta(): #FUNKCE zepta se zda chces dalsi kartu
 
     if Nova_karta == "ano":
             losovani()
+            dalsi_karta()
     elif Nova_karta == "ne":
         print ("Dobrá, nebudeme losovat")
         return
     else:
         print("Nerozumím Ti, odpovídej 'ano' nebo 'ne'")
         return
-    dalsi_karta()
+    
         
 dalsi_karta()
 
